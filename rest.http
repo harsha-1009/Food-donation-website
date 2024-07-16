@@ -1,0 +1,21 @@
+POST  http://localhost:8000/login
+Content-Type: application/json
+
+{
+    "email":"shiva@gmail.com",
+    "password":"shiva@123"
+}
+
+
+#########
+
+DELETE http://localhost:8000/donations/63e5e4e90ca823f0880f072b
+
+##########
+
+POST http://localhost:8000/logout
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZWNmYzQzOTZiYWI0YzkxZTNiNjM5ZCIsImVtYWlsIjoic2hpdmFAZ21haWwuY29tIiwiaWF0IjoxNjc2NDg5MDIzLCJleHAiOjE2NzY0OTI2MjN9.uTvtkjaawpMXp5bcK5vPyxPsS36LiPlj6-AL4YoEk8Y"
+}
